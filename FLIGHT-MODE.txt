@@ -1,0 +1,11 @@
+SLOW ROADS - PLANE MODE (normal hilly world, separate airports)
+Run:  python -m http.server 8000  (inside this folder), open http://localhost:8000 and press Ctrl+F5
+Pick "Plane" in the vehicle menu (steering-wheel icon). You start on a runway of a small airport
+(tower + hangar) beside the road. More airports appear every ~2.5 km along the road.
+Take off: hold W to ~100 km/h, then hold Down. Land gently on a runway: <8 m/s sink, level wings.
+Controls: W/S throttle | Up/Down pitch (Down = nose up, I inverts) | A/D or Left/Right bank+turn (up to 57 deg)
+          Z / X = barrel roll (needs speed + 15 m height) | Space brake | R = back to runway
+          C = camera (Near Chase, Far Chase, First Person cockpit)
+          GPS radar (bottom-left by default): runways + approach line; G = zoom, T = next airport
+          "GPS" button (top center) = settings: radar size, opacity, corner, drag it anywhere (saved)
+Private modification of a CC BY-NC-ND game: do not redistribute.
